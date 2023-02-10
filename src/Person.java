@@ -89,7 +89,7 @@ public class Person {
 
     public String toString()
     {
-        return iD + ", " + title + ", " + fName +", " + lName +", " + yob;
+        return iD + ", " + fName + ", " + lName +  ", " + title + ", " + yob;
     }
 
 

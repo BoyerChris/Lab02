@@ -43,4 +43,11 @@ public class Worker extends Person
         return weeksPay;
     }
 
+    public void setHourlyPayRate(double hourlyPayRate) {
+        this.hourlyPayRate = hourlyPayRate;
+    }
+
+    public void setWeeksPay(double weeksPay) {
+        this.weeksPay = weeksPay;
+    }
 }

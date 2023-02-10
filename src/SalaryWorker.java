@@ -22,7 +22,7 @@ public class SalaryWorker extends Worker
         return weeksPay;
     }
     @Override
-    public String displayWeeklyPay(double hoursWorked) {
+    public String displayWeeklyPay(double weeklyHours) {
         displayWeeklyPay = "1 Week's pay: " + weeksPay;
         return displayWeeklyPay;
     }
@@ -36,5 +36,13 @@ public class SalaryWorker extends Worker
     @Override
     public double getWeeksPay() {
         return weeksPay;
+    }
+
+    public void setAnnualSalary(double annualSalary) {
+        this.annualSalary = annualSalary;
+    }
+
+    public void setWeeksPay(double weeksPay) {
+        this.weeksPay = weeksPay;
     }
 }
